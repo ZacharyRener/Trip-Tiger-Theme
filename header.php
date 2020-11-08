@@ -13,6 +13,8 @@
 
 	</head>
 
+	<?php get_template_part('/mifw/library/Navbar/navbar'); ?>
+
 	<body <?php body_class(); ?>>
 
 		<?php wp_body_open(); 
